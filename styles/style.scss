@@ -1,0 +1,25 @@
+@import 'fonts';
+
+:root {
+  //  breakpoints
+  $lg: 1920px;
+  $md: 1366px;
+  $sm: 425px;
+
+  // colors
+  --white: #fff;
+  --black: #1F1F1F;
+  --black-2: #313131;
+  --yellow: #FBCE51;
+  --gray: #D6D6D6;
+  --blue: #3057A2;
+  --red: #F54932;
+
+  //  fonts
+  --font-family: "Golos Text", sans-serif;
+  --second-family: "Merriweather", sans-serif;
+}
+
+#app {
+  font-family: var(--font-family);
+}

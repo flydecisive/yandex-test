@@ -1,0 +1,19 @@
+@import 'vars';
+
+.footer {
+  width: 100%;
+  background: $beige;
+
+  &__wrapper {
+    padding: 40px 0 72px 0;
+    box-sizing: border-box;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: $black-2;
+    opacity: 0.6;
+  }
+}
